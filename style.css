@@ -1,3 +1,11 @@
+:root {
+  background-color: lightgray;
+}
+.box {
+  border: 10px solid blue;
+  font-family: "Courier New", Courier, monospace;
+}
+
 h1 {
-  color: blue;
+  font-family: "Courier New", Courier, monospace;
 }
