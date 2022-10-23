@@ -12,10 +12,53 @@
     <h1>JavaScript Quiz</h1>
     <div class="box">
       Question 1, " How does a "for" loop start?"<br />
-      <input type="radio" name="firstQuestion" />test1<br />
-      <input type="radio" name="firstQuestion" />test1<br />
-      <input type="radio" name="firstQuestion" />test1<br />
-      <button>Continue</button>
+      <input type="radio" name="firstQuestion" id="rightAnswer1" />for (i = 0; i
+      <= 5; i++)<br />
+      <input type="radio" name="firstQuestion" /> for (i = 0; i <= 5)<br />
+      <input type="radio" name="firstQuestion" />for (i = 0; i <= 5; i++)<br />
+      <button class="continue" onclick="next(1)">Continue</button>
+    </div>
+    <div class="box">
+      Question 2, "How can you add a comment in a JavaScript?"<br />
+      <input type="radio" name="secondQuestion" id="rightAnswer2" />//This is a
+      comment<br />
+      <input type="radio" name="secondQuestion" />'This is a commentst1<br />
+      <input type="radio" name="secondQuestion" /><!-This is a comment--><br />
+      <button class="continue" onclick="next(2)">Continue</button>
+    </div>
+    <div class="box">
+      Question 3, "What is the correct way to write a JavaScript array?<br />
+      <input type="radio" name="thirdQuestion" id="rightAnswer3" />var txt = new
+      Array("tim","kim","jim")<br />
+      <input type="radio" name="thirdQuestion" />var txt = new
+      Array:1=("tim")2=("kim")3=("jim")<br />
+      <input type="radio" name="thirdQuestion" />var txt = new
+      Array="tim","kim","jim"<br />
+      <button class="continue" onclick="next(3)">Continue</button>
+    </div>
+    <div class="box">
+      Question 4, "How do you round the number 7.25, to the nearest whole
+      number?"<br />
+      <input
+        type="radio"
+        name="fourthQuestion"
+        id="rightAnswer4"
+      />Math.rnd(7.25)<br />
+      <input type="radio" name="fourthQuestion" />round(7.25)<br />
+      <input type="radio" name="fourthQuestion" />rnd(7.25)<br />
+      <button class="continue" onclick="next(4)">Continue</button>
+    </div>
+    <div class="box">
+      Question 5, How do you find the largest number of 2 and 4?<br />
+      <input
+        type="radio"
+        name="fifthQuestion"
+        id="rightAnswer5"
+      />Math.max(2,4)<br />
+      <input type="radio" name="fifthQuestion" />ceil(2,4)<br />
+      <input type="radio" name="fifthQuestion" />top(2,4)<br />
+      <button class="continue" onclick="next(5)">Continue</button>
+      <button>Finish</button>
     </div>
     <script src="script.js"></script>
   </body>
